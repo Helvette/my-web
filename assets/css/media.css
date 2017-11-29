@@ -64,4 +64,9 @@
 	.title {
 		width: 70%;
 	}
+
+	.button button {
+		width: 96%;
+		margin: 2%;
+	}
 }
