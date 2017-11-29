@@ -1,4 +1,36 @@
-@media (max-width: 480px) {
+@media (min-width: 577px) and (max-width: 990px) {
+	.card {
+		width: 100%;
+	}
+
+	.cards .hide, nav .hide {
+		display: none;
+	}
+
+	.card:nth-child(3) {
+		margin-left: 0;
+		margin-right: 0;
+		margin-bottom: 40px;
+	}
+
+	.card {
+		margin-bottom: 40px;
+	}
+
+	.section {
+		padding: 0 15px;
+	}
+
+	nav span {
+		display: inline-block;
+	}
+
+	.title {
+		width: 70%;
+	}
+}
+
+@media (max-width: 576px) {
 	section .col:not(.card) {  
 		margin: 1% 0 1% 0%; 
 	}
